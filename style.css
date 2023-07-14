@@ -3,6 +3,9 @@
   margin: 0;
   /* border: 2px solid red; */
 }
+body {
+  background-color: #bbd0ff;
+}
 
 .main {
   display: flex;
@@ -64,7 +67,11 @@ h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 24px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  background-color: lightpink;
+  font-style: italic;
+  font-weight: bold;
+  color: #faedcd;
+  background-color: #023047;
+  /* mix-blend-mode: multiply; */
 }
 #Play:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
